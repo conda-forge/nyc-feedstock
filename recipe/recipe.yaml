@@ -1,5 +1,5 @@
 context:
-  version: "17.1.0"
+  version: "18.0.0"
 
 package:
   name: nyc
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://registry.npmjs.org/nyc/-/nyc-${{ version }}.tgz
-  sha256: 8b071905b271341dbbec2522970776e3d4c456d2586ba211f8c5ea10369c8b1f
+  sha256: 4a6907ef0956103a192bd29e1a784524f3ed8f1832eec438eee937c4828577be
 
 build:
   number: 0
