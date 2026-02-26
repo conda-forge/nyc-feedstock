@@ -16,7 +16,7 @@ pnpm-licenses generate-disclaimer --prod --output-file=third-party-licenses.txt
 
 mkdir -p ${PREFIX}/bin
 tee ${PREFIX}/bin/nyc << EOF
-exec ${PREFIX}/lib/node_modules/nyc/bin/nyc.js
+exec \${CONDA_PREFIX}/lib/node_modules/nyc/bin/nyc.js
 EOF
 chmod +x ${PREFIX}/bin/nyc
 
