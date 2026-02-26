@@ -23,7 +23,7 @@ requirements:
 
 tests:
   - script:
-      - nyc --help
+      - nyc --help 2>&1 | grep -q "nyc.js \[command\] \[options\]"
 
 about:
   license: ISC
